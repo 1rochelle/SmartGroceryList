@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartGroceryList.Data
+namespace SmartGroceryList.Models
 {
-    public class User
+    public class UserListItem
     {
-        public Guid UserId { get; set; }
+        public int UserId { get; set; }
         public string UserName { get; set; }
-        public bool HasPurchaseHistory { get; set; }
+
+        [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
     }
 }
