@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGroceryListMVC", "SmartGroceryListMVC\SmartGroceryListMVC.csproj", "{2BD27A7E-86CB-4FED-8760-AE7D173E8538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGroceryList.Data", "SmartGroceryList.Data\SmartGroceryList.Data.csproj", "{95203328-856A-4A5B-83C6-696E22FC100D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BD27A7E-86CB-4FED-8760-AE7D173E8538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD27A7E-86CB-4FED-8760-AE7D173E8538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD27A7E-86CB-4FED-8760-AE7D173E8538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD27A7E-86CB-4FED-8760-AE7D173E8538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95203328-856A-4A5B-83C6-696E22FC100D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95203328-856A-4A5B-83C6-696E22FC100D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95203328-856A-4A5B-83C6-696E22FC100D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95203328-856A-4A5B-83C6-696E22FC100D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {694D41E9-8D2E-4EE2-ABE7-1A5FC6E890CA}
+	EndGlobalSection
+EndGlobal
