@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartGroceryList.Data
+namespace SmartGroceryList.Models
 {
-    public class User
+    public class UserDetail
     {
-        public Guid UserId { get; set; }
+        public int UserId { get; set; }
         public string UserName { get; set; }
         public bool HasPurchaseHistory { get; set; }
-        public DateTimeOffset CreatedUtc { get; set; }
+
     }
 }

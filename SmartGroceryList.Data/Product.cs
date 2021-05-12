@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -20,10 +21,14 @@ namespace SmartGroceryList.Data
 
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
-        
+
+        public List<Product> MultiplePurchasesOfItem = new List<Product>();
+
         public int ItemCount { get; set; }
 
+        [DefaultValue(false)]
         public bool PurchasedAtMultipleStores { get; set; }
+
         public enum ItemType { Refrigerated, Frozen, Produce, DryGoods, Household, PersonalCareItem }
 
         // Foreign Keys here
