@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmartGroceryList.Models
 {
-    public class StoreDetails
+    public class StoreEdit
     {
         public int StoreId { get; set; }
         public string StoreName { get; set; }
